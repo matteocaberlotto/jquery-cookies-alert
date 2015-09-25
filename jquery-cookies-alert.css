@@ -1,0 +1,30 @@
+#jquery-cookies-container {
+    position: fixed;
+    z-index: 2147;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333333;
+    color: #fffff5;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+#jquery-cookies-container #ok-button {
+    border: 1px solid #fffff5;
+    border-radius: 3px;
+    color: #fffff5;
+    margin: 0 0 0 10px;
+    padding: 2px 12px;
+}
+
+#jquery-cookies-container #ok-button:hover {
+    text-decoration: none;
+    background: #fffff5;
+    color: #333333;
+}
+
+#jquery-cookies-container #jquery-cookies-privacy-url {
+    margin-left: 10px;
+}
